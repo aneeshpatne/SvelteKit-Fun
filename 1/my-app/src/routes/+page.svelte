@@ -32,6 +32,7 @@ function classSetter(){
     else{
         document.body.classList.remove('dark-mode');
         localStorage.setItem('theme', 'false');
+
     }
 }
 };
